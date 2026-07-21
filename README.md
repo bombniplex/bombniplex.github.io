@@ -9,8 +9,8 @@
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
+        width: 1920,
+        height: 1080,
         channel: "vca___",
         // Only needed if this page is going to be embedded on other websites
         parent: ["https://bombniplex.github.io", "https://feedbackuniversity.org/"]
