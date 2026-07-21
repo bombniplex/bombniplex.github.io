@@ -1,16 +1,1 @@
-<html>
-  <body>
-    <div id="twitch-embed"></div>
-
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
-        channel: "vca___",
-        parent: ["feedbackuniversity.org", "github.com"]
-      });
-    </script>
-  </body>
-</html>
+<iframe src="https://player.twitch.tv/?channel=vca___&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
